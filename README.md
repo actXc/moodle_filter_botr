@@ -35,8 +35,9 @@ I am working also on a repository.
 
 Installation:
 put all files into the folder moodle/filter/cdn
-go to moodle site administration -> notification
-the filter should be listed
+
+go to moodle site administration -> notification (the filter should be listed)
+
 install
 
 Set up:
