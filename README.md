@@ -34,13 +34,13 @@ Please comment and add your solutions.
 I am working also on a repository.
 
 Installation:
-1) put all files into the folder moodle/filter/cdn
-2) go to moodle site administration -> notification (the filter should be listed)
-3) install
-4) do the set up
+# put all files into the folder moodle/filter/cdn
+# go to moodle site administration -> notification (the filter should be listed)
+# install
+# do the set up
 
 Set up:
-1) go to site administration -> plugin -> filter ->cdn filter and add you credentials etc.
-2) enable the filter where it is needed
+# go to site administration -> plugin -> filter ->cdn filter and add you credentials etc.
+# enable the filter where it is needed
 
 Report your experience here
