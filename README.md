@@ -1,7 +1,9 @@
 moodle_filter_cdn
 =================
+Content Delivery Network - filter for moodle2.x using content at "Bits on the run".
+This filter turns bitsontherun video links into signed URLs. This effectively prevents leeching.
+No HTML or SCRIPT tags needed.
 
-this filter turns bitsontherun video links into signed URLs. This effectively prevents leeching. 
 Bits On The Run is a comercial video CDN service and offers free professional CDN for everybody.
 This makes it very attractive for teachers and schools to put large size content there instead of
 loading videos to the moodle data server.
@@ -9,6 +11,8 @@ loading videos to the moodle data server.
 Example:
 [bitsontherun 3Wfn34uw-5cnekf32]  can be inserted into text in moodle. 
 This will be translated into a singed link to a external resource at bitsontherun.com video CDN service.
+This link can not be used longer than the timeout defines. If the link is stolen, if becomes useless after a while.
+This does not protect you video from beeing screen copied, but it makes it really difficult to reuse the link some where else.
 
 The settings need to be set in the moodle settings:
 
@@ -30,4 +34,10 @@ Please comment and add your solutions.
 I am working also on a repository.
 
 Installation:
-Read http://developer.longtailvideo.com/botr/system-api/
+put all files into the folder moodle/filter/cdn
+go to moodle site administration -> notification
+the filter should be listed
+install
+
+Set up:
+go to site administration -> plugin -> filter ->cdn filter
