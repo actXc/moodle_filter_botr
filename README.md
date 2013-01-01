@@ -8,13 +8,14 @@ Bits On The Run is a comercial video CDN service and offers free professional CD
 This makes it very attractive for teachers and schools to put large size content there instead of
 loading videos to the moodle data server.
 
-Example:
-[bitsontherun 3Wfn34uw-5cnekf32]  can be inserted into text in moodle. 
+##Example:
+`[bitsontherun 3Wfn34uw-5cnekf32]`  can be inserted into text in moodle. 
 This will be translated into a singed link to a external resource at bitsontherun.com video CDN service.
 This link can not be used longer than the timeout defines. If the link is stolen, if becomes useless after a while.
 This does not protect you video from beeing screen copied, but it makes it really difficult to reuse the link some where else.
 
-The settings need to be set in the moodle settings:
+##Settings
+The settings need to be set in the moodle settings using the admin interface:
 
 * API-Secret (provided to every user of bitsontherun.com at http://dashboard.bitsontherun.com/settings/)
  
