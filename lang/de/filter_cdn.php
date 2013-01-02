@@ -20,7 +20,7 @@
  * @package   filter_cdn
  * @copyright 2012 Guido Hornig, actxcellence.de
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
+ */ 
 
 $string['filtername'] = 'BitsOnTheRun URL-Filter';
 
