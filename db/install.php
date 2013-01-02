@@ -25,6 +25,6 @@
 function xmldb_filter_cdn_install() {
     global $CFG;
 
-    filter_set_global_state('filter/cdn', TEXTFILTER_ON);
+    filter_set_global_state('filter/cdn', TEXTFILTER_OFF);
 }
 
