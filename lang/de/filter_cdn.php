@@ -22,26 +22,26 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['filtername'] = 'cdn plugin';
+$string['filtername'] = 'BitsOnTheRun URL-Filter';
 
 $string['cdn_user'] = 'Benutzername';
-$string['cdn_user_desc'] = 'Benutzername für das bitsontherun.com Dashboard.';
+$string['cdn_user_desc'] = 'Benutzername fÃ¼r das bitsontherun.com Dashboard.';
 $string['cdn_user_def'] = '(your@email.de, oder so?) ';
 $string['cdn_pw'] = 'Password';
-$string['cdn_pw_desc'] = 'Das Passwort für das  bitsontherun.com Dashboard';
+$string['cdn_pw_desc'] = 'Das Passwort fÃ¼r das  bitsontherun.com Dashboard';
 $string['cdn_numofvideo'] = 'Videoanzahl';
 $string['cdn_numofvideo_desc'] = 'Anzahl der Videos, die in der Liste angezeigt werden';
-$string['cdn_timeout'] = 'Gültigkeitsdauer für signierte Links';
-$string['cdn_timeout_desc'] = 'Zeit in Minuten, die ein Video <a href="http://www.longtailvideo.com/support/bits-on-the-run/15986/secure-your-videos-with-signing" target="_blank">mit signiertenm Player</a> gültig sein soll. 0 (Null) für unsignierte Videos (Voreinstellung).';
+$string['cdn_timeout'] = 'GÃ¼ltigkeitsdauer fÃ¼r signierte Links';
+$string['cdn_timeout_desc'] = 'Zeit in Minuten, die ein Video <a href="http://www.longtailvideo.com/support/bits-on-the-run/15986/secure-your-videos-with-signing" target="_blank">mit signiertenm Player</a> gÃ¼ltig sein soll. 0 (Null) fÃ¼r unsignierte Videos (Voreinstellung).';
 $string['cdn_dnsmask'] = 'DNS Maske';
 $string['cdn_dnsmask_desc'] = 'Die <a href="http://www.longtailvideo.com/support/bits-on-the-run/21627/dns-mask-our-content-servers"target="_blank">DNS Maske</a> aus der Definition im BOTR  Benutzerkonto.';
 $string['cdn_defaultplayer'] = 'Standard Player';
 $string['cdn_defaultplayer_desc'] = 'Der <a href="http://dashboard.bitsontherun.com/players/">Player</a>, der verwendet wird, wenn kein Player angegeben ist. Beispiel:
 <code>[cdn MdkflPz7-35rdi1pO]</code>';
 $string['cdn_heading'] = 'Content Delivery Network - Filter';
-$string['cdn_information'] = 'Specify your bits on the run credentials and parameters.';
+$string['cdn_information'] = 'Dieses Filter erzeugt aus Tags wie:<code>[cdn MdkflPz7-35rdi1pO]</code> signierte Links. <br> Bitte alle \'Bits On The Run\' Vorgaben eintragen.';
 $string['cdn_loggedin'] = 'Insert videos by adding tags like:
 <code>[cdn MdkflPz7-35rdi1pO]</code> to your pages. <br>Specify your \'bits on the run\' credentials and parameter or log out.';
 $string['cdn_loggedout'] = 'Log in to specify your bits on the run credentials and parameter.';
 $string['cdn_secret'] = 'API Secret';
-$string['cdn_secret_desc'] = 'Alle registrierten Nutzer von bei bitsontherun.com können <a href="http://dashboard.bitsontherun.com/settings/properties/api-keys/" source="_blank">das API Secret hier nachschauen.</a>';
+$string['cdn_secret_desc'] = 'Alle registrierten Nutzer von bei bitsontherun.com kÃ¶nnen <a href="http://dashboard.bitsontherun.com/settings/properties/api-keys/" source="_blank">das API Secret hier nachschauen.</a>';
