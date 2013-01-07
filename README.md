@@ -9,8 +9,9 @@ This makes it very attractive for teachers and schools to put large size content
 loading videos to the moodle data server.
 
 ##Example:
-`[bitsontherun 3Wfn34uw-5cnekf32] ` with idividual editor
-`[botr 2lje3kQV]` with default editor (see settings)
+
+`[botr 2lje3kQV]` with default player (see settings)
+`[botr 2lje3kQV-g3rjbt3f]` with individual player (see settings)
 
 These links can be inserted into the filtered text (page, forum, quiz etc.)  in moodle.
 A link will be translated into a singed link to the external resource at bitsontherun.com video CDN service.
@@ -46,7 +47,8 @@ I am working also on a repository.
 ##Set up:
 1. go to site administration -> plugin -> filter ->botr filter
 2. add you credentials etc.
-3. enable the filter where it is needed, by default the botr filter is disabled. You can change this under Plugins > Filters.
+3. enable the filter where it is needed, by default the botr filter is disabled.
+     You can change this under Plugins > Filters.
 The plugin in can be activated for every entity or for a whole course etc. 
 
 Report your experience here
