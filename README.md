@@ -1,4 +1,4 @@
-moodle_filter_cdn
+moodle_filter_botr
 =================
 Content Delivery Network - filter for moodle2.x using content at "Bits on the run".
 This filter turns bitsontherun video links into signed URLs. This effectively prevents leeching.
@@ -10,7 +10,7 @@ loading videos to the moodle data server.
 
 ##Example:
 `[bitsontherun 3Wfn34uw-5cnekf32] ` with idividual editor
-`[cdn 2lje3kQV]` with default editor (see settings) 
+`[botr 2lje3kQV]` with default editor (see settings)
 
 These links can be inserted into the filtered text (page, forum, quiz etc.)  in moodle.
 A link will be translated into a singed link to the external resource at bitsontherun.com video CDN service.
@@ -38,15 +38,15 @@ Please comment and add your solutions.
 I am working also on a repository.
 
 ##Installation:
-1. put all files into the folder moodle/filter/cdn
+1. put all files into the folder moodle/filter/botr
 2. go to moodle site administration -> notification (the filter should be listed)
 3. install
 4. do the set up
 
 ##Set up:
-1. go to site administration -> plugin -> filter ->cdn filter
+1. go to site administration -> plugin -> filter ->botr filter
 2. add you credentials etc.
-3. enable the filter where it is needed, by default the cdn filter is disabled. You can change this under Plugins > Filters.
+3. enable the filter where it is needed, by default the botr filter is disabled. You can change this under Plugins > Filters.
 The plugin in can be activated for every entity or for a whole course etc. 
 
 Report your experience here
