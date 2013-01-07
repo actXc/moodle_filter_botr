@@ -11,17 +11,24 @@ loading videos to the moodle data server.
 ##Example:
 
 `[botr 2lje3kQV]` with default player (see settings)
+
 `[botr 2lje3kQV-g3rjbt3f]` with individual player (see settings)
 
-These links can be inserted into the filtered text (page, forum, quiz etc.)  in moodle.
+These plain text links can be inserted into any text (page, forum, quiz etc.)  in moodle, that is filtered.
 A link will be translated into a singed link to the external resource at bitsontherun.com video CDN service.
-This link can not be used longer than the timeout defines. If the link is stolen, if becomes useless after a while.
-This does not protect you video from beeing screen copied, but it makes it really difficult to reuse the link some where else.
+
+Use the moodle_repository_botr https://github.com/actXc/moodle_repository_botr plugin to get the links 
+very easy from the Bits on The Run platform.
+
+### Option: signed links with timeout
+If a timeout is specified, a link can not be used longer than the timeout defines. If the link is stolen, 
+if becomes useless after a while. This does not protect you video from beeing screen copied, but it makes 
+it really difficult to reuse the link some where else.
 
 ##Settings
 The settings need to be set in the moodle settings using the admin interface:
 
-* API-Secret (provided to every user of bitsontherun.com at http://dashboard.bitsontherun.com/settings/)
+* API-Secret and API-Key (provided to every user of bitsontherun.com at http://dashboard.bitsontherun.com/settings/)
  
 * Timeout (how long the link will remain)
 
