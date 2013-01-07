@@ -81,7 +81,7 @@ function botr_create_js_embed($arguments) {
 //echo '<pre>'; print_r($arguments);echo '</pre>';
 //echo '<pre>'; print_r($CFG);echo '</pre>';
     $video_hash = $arguments[2];
-    if (!empty($argument[3])){
+    if (!empty($arguments[3])){
         $player_hash = $arguments[3];  // Player hash is was given in the text
     } else {
         $player_hash = $CFG->botr_defaultplayer; // no player specified, we take the default player
