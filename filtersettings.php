@@ -61,7 +61,7 @@ $settings->add(new admin_setting_configtext(
 	'botr_timeout',
 	get_string ('botr_timeout','filter_botr'),
 	get_string ('botr_timeout_desc','filter_botr'),
-	'0',
+	'10',
 	PARAM_INT
 	)
 );
