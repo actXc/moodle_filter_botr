@@ -28,4 +28,4 @@ $plugin->version   = 2012010600;
 $plugin->requires  = 2010112400;
 $plugin->component = 'filter_botr';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.0 (Build: 2012122300)';
+$plugin->release = '1.01 for Moodle 2.4-2.7 (Build: 2014111500)';
