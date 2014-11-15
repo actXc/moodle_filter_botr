@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2012010600;
+$plugin->version   = 2014111500;
 $plugin->requires  = 2010112400;
 $plugin->component = 'filter_botr';
 $plugin->maturity = MATURITY_STABLE;
