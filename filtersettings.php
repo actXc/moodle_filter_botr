@@ -28,21 +28,21 @@ if ($ADMIN->fulltree) {
 
 //just a headline
 $settings->add(new admin_setting_heading (
-	"heading_botr",	
-	get_string('botr_heading','filter_botr'), 
-	get_string('botr_information','filter_botr')
-	)
+    "heading_botr",    
+    get_string('botr_heading','filter_botr'), 
+    get_string('botr_information','filter_botr')
+    )
 );
 
 // botr key
 $settings->add(new admin_setting_configtext(
-	"botr_key",
-	get_string ('botr_key','filter_botr'),
-	get_string ('botr_key_desc','filter_botr'),
-	'',
-	PARAM_RAW,
-	40
-	)
+    "botr_key",
+    get_string ('botr_key','filter_botr'),
+    get_string ('botr_key_desc','filter_botr'),
+    '',
+    PARAM_RAW,
+    40
+    )
 );
 
 // botr secret
@@ -58,38 +58,38 @@ $settings->add(new admin_setting_configtext(
 
 //botr_timeout 
 $settings->add(new admin_setting_configtext(
-	'botr_timeout',
-	get_string ('botr_timeout','filter_botr'),
-	get_string ('botr_timeout_desc','filter_botr'),
-	'10',
-	PARAM_INT
-	)
+    'botr_timeout',
+    get_string ('botr_timeout','filter_botr'),
+    get_string ('botr_timeout_desc','filter_botr'),
+    '10',
+    PARAM_INT
+    )
 );
-	
+    
 //botr_dnsmask 
 $settings->add(new admin_setting_configtext(
-	'botr_dnsmask',
-	get_string ('botr_dnsmask','filter_botr'),
-	get_string ('botr_dnsmask_desc','filter_botr'),
-	"content.bitsontherun.com",
+    'botr_dnsmask',
+    get_string ('botr_dnsmask','filter_botr'),
+    get_string ('botr_dnsmask_desc','filter_botr'),
+    "content.bitsontherun.com",
     PARAM_RAW,
-	'70'
-	)
+    '70'
+    )
 );
 
 //botr_defaultplayer für diesen Kunden
 $settings->add(new admin_setting_configtext(
-	'botr_defaultplayer',
-	get_string ('botr_defaultplayer','filter_botr'),
-	get_string ('botr_defaultplayer_desc','filter_botr'),
-	"59qau88L",
-	PARAM_RAW,
-	'8'
-	)
+    'botr_defaultplayer',
+    get_string ('botr_defaultplayer','filter_botr'),
+    get_string ('botr_defaultplayer_desc','filter_botr'),
+    "59qau88L",
+    PARAM_RAW,
+    '8'
+    )
 );
-	
+    
 }
 
 
 
-	
+    
