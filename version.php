@@ -24,8 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014111500;
-$plugin->requires  = 2010112400;
+$plugin->version = 2019101600;
+$plugin->requires = 2010112400;
 $plugin->component = 'filter_botr';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.01 for Moodle 2.4-2.7 (Build: 2014111500)';
+$plugin->release = '2.0 for Moodle 3.7 (Build: 2019101600)';
